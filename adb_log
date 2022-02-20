@@ -1,0 +1,510 @@
+--------- beginning of system
+02-20 03:06:36.590  1628  2499 I chatty  : uid=1000(system) SyncManager expire 2 lines
+--------- beginning of main
+02-20 03:06:36.590  1628  2499 V _V_VivoStats: noteWhich 43, arg1 = 1000, arg2 = 1628, name = SyncLoopWakeLock
+02-20 03:06:36.591  1628  2499 V _V_VivoStats: noteWhich 44, arg1 = 1000, arg2 = 1628, name = SyncLoopWakeLock
+02-20 03:06:36.591   657  5582 I netd    : bandwidthAddNiceApp(10096) <0.06ms>
+02-20 03:06:36.591  1628  2499 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:36.592   657  5582 I netd    : firewallSetUidRule(1, 10096, 1) <0.04ms>
+02-20 03:06:36.594 27184 27184 I _V_Updater/InstallService: InstallService onStartCommand!
+02-20 03:06:36.596  1628  5693 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:36.596  1628  5693 V _V_VivoStats: noteWhich 43, arg1 = 10145, arg2 = 27184, name = com.bbk.updater.service.InstallService
+02-20 03:06:36.597  1628  2336 D ConnectivityService: Blocked status changed to false for 10096(616) on netId 105
+02-20 03:06:36.597  1628  2336 D ConnectivityService: sending notification CALLBACK_BLK_CHANGED for NetworkRequest [ LISTEN id=616, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN&FOREGROUND Uid: 10096] ]
+02-20 03:06:36.598   657  5582 I netd    : firewallSetUidRule(1, 10055, 1) <0.04ms>
+02-20 03:06:36.598 27184 27184 I _V_Updater/InstallService: installMethod: INSTALL_INTELLIGENT
+02-20 03:06:36.598 27184 27184 I _V_Updater/InstallService: setUpdater:512
+02-20 03:06:36.606  1628  5693 W StorageManagerService: getVolmeList calling uid:1000
+02-20 03:06:36.612  1481  1481 D _V_BBK_LOG_MyApplication: MyApplication onCreate=====  
+02-20 03:06:36.617 27184  1517 I _V_Updater/InstallService: Checking if battery was enough...  
+02-20 03:06:36.618 27184  1517 I _V_Updater/CommonUtils: getElectricQuantity :52
+02-20 03:06:36.618  1481  1481 D _V_BBK_LOG_SPManager: getConfig key:feedback_boot_detect, def:false
+02-20 03:06:36.618 27184  1517 I _V_Updater/InstallService: Is battery enough? true
+02-20 03:06:36.618 27184  1517 I _V_Updater/InstallService: Checking if sdcard was mounted...
+02-20 03:06:36.619  1628  5688 W StorageManagerService: getVolmeList calling uid:10145
+02-20 03:06:36.619  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:local_config_exist, def:false
+02-20 03:06:36.620  1481  1518 W _V_LIB-Security-MobileAgentManager: checkInited SecuritySDK is not inited!
+02-20 03:06:36.620  1481  1518 W _V_LIB-Security-MobileAgentManager: SecurityCipher SecurityInit.initialize
+02-20 03:06:36.621  1628  5693 W StorageManagerService: getVolmeList calling uid:10145
+02-20 03:06:36.621  1481  1481 D _V_BBK_LOG_MyApplication: Current apk version name: 7.2.5.3
+02-20 03:06:36.622 27184  1517 I _V_Updater/InstallService: Mapping update info...
+02-20 03:06:36.622 27184 27184 I _V_Updater/InstallService: Get install event : 4
+02-20 03:06:36.622 27184 27184 I _V_Updater/InstallService: setUpdater:4
+02-20 03:06:36.624 27184  1517 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:36.624  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:36.624 27184  1517 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:36.624  1481  1519 I _V_LIB-Security-MobileAgentManager-com.android.bbklog: libvivosgmain.so,so_sha256=E06F856EF990F460C34CAB77EDDE9CE9364A54D3A496CD420D96551472B75A83,len=175488,soFile=/system/app/BBKLOG/lib/arm64/libvivosgmain.so
+02-20 03:06:36.625  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:36.625 27184  1517 I _V_Updater/InstallService: fotaUpdateInof: com.bbk.updater.bean.UpdateInfo@6921ea, vgcinfo: null
+02-20 03:06:36.625 27184  1517 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:36.625 27184  1517 I _V_Updater/DownloadInfoManager: fota download status query result is 3,vgcstatus: -1
+02-20 03:06:36.625 27184  1517 I _V_Updater/DownloadInfoManager: fota download status query result is 3
+02-20 03:06:36.626 27184  1517 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:36.626 27184  1517 I _V_Updater/DownloadInfoManager: fota download status query result is 3,vgcstatus: -1
+02-20 03:06:36.626 27184  1517 I _V_Updater/InstallService: Checking if update info was not null...
+02-20 03:06:36.626 27184  1517 I _V_Updater/InstallService: baseUpdateInfos: com.bbk.updater.bean.UpdateInfo@6921ea,, :null
+02-20 03:06:36.626 27184  1517 I _V_Updater/InstallService: Is update info not null? true
+02-20 03:06:36.626 27184  1517 I _V_Updater/InstallService: Mapping md5,file name and file path...
+02-20 03:06:36.627 27184  1517 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:36.627 27184 27184 I _V_Updater/InstallService: Get install event : 8
+02-20 03:06:36.627 27184 27184 I _V_Updater/InstallService: setUpdater:8
+02-20 03:06:36.627  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:36.627 27184 27184 I _V_Updater/InstallService: Dialog type : CHECKING
+02-20 03:06:36.627 27184  1517 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:36.627  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:36.628 27184  1517 I _V_Updater/InstallService: fotaDdownloadFileFullPath:/data/vivo-updater/com.bbk.updater/OTAPackage/fbe8f1fcbdc9af9b8feda00dc10911ad.zip
+02-20 03:06:36.636  1481  1518 I _V_LIB-Security-MobileAgentManager-com.android.bbklog: sdk_version=securitysdk-v1.4.6-aabb2dd,initialize use_time=16 ms
+02-20 03:06:36.636  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:log.ssrdump.checked, def:false
+02-20 03:06:36.636  1481  1481 I _V_LIB-Security-MobileAgentManager-com.android.bbklog: sdk_version=securitysdk-v1.4.6-aabb2dd,initialize use_time=0 ms
+02-20 03:06:36.636  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:privacy_version, def:1.0
+02-20 03:06:36.637  1481  1518 D _V_BBK_LOG_LogUtil: currentVersion : 1.0, newVersion : 1.0
+02-20 03:06:36.637  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:feedback_detect_status, def:1
+02-20 03:06:36.638  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:feedback_submit_status, def:0
+02-20 03:06:36.638  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:log.feedback.auto.upload, def:false
+02-20 03:06:36.640  1628  5688 W StorageManagerService: getVolmeList calling uid:1000
+02-20 03:06:36.640  1481  1481 D _V_icupgrade_v: SystemUtils: isMtk false isMulSimCard true
+02-20 03:06:36.641  1481  1518 D _V_BBK_LOG_FeedbackUpload:  feedbackZip zip file size = 0,path = /storage/emulated/0/bbklog_zip//.fbk
+02-20 03:06:36.642  1481  1518 D _V_BBK_LOG_FeedbackUpload:  feedbackZip zip file size = 0,path = /storage/emulated/0/bbklog_zip//.fbk/auto
+02-20 03:06:36.642  1628  5688 I chatty  : uid=1000(system) Binder:1628_19 identical 1 line
+02-20 03:06:36.642  1481  1518 D _V_BBK_LOG_FeedbackUpload: DetectAutoCompress is finish,and no feedback log left,stop upload!
+02-20 03:06:36.643  1481  1518 I _V_BBK_LOG_MyApplication: not Supported Identifier
+02-20 03:06:36.643  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:authorize_start_time, def:0
+02-20 03:06:36.644  1628  5688 W StorageManagerService: getVolmeList calling uid:1000
+02-20 03:06:36.644  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:authorize_valid_duration, def:0
+02-20 03:06:36.644  1481  1518 D _V_BBK_LOG_AuthorizeUtil: currentTime : 2022-02-20 03:06:36, startTime : 1970-01-01 07:00:00, validDuration : 0, expireDate : 1970-01-01 07:00:00
+02-20 03:06:36.644  1481  1481 D _V_icupgrade_v: DomainHelper: test: domain repo size:0
+02-20 03:06:36.645  1481  1518 D _V_BBK_LOG_SPManager: getConfig key:log.report.status, def:false
+02-20 03:06:36.645  1481  1518 D _V_BBK_LOG_ReportStatusUtil: report status enable  : false
+02-20 03:06:36.647  1481  1481 I _V_icupgrade_v: DomainHelper: skip read vivo damons file
+02-20 03:06:36.647  1481  1481 D _V_icupgrade_v: DomainHelper: test: domain repo size:1
+02-20 03:06:36.651  1481  1481 D _V_BBK_LOG_NoticeManager: Cancel notification id : 2
+02-20 03:06:36.653  1481  1481 D _V_BBK_LOG_NoticeManager: Cancel notification id : 6
+02-20 03:06:36.654  1481  1481 D _V_BBK_LOG_SPManager: getConfig key:log.user.type, def:1
+02-20 03:06:36.658  1126 30316 I ANDR-VIVO-PERF: perf_ux_engine_events
+02-20 03:06:36.661  1481  1481 D _V_BBK_LOG_BbkLogLocalReceiver: Broadcast action is: android.vivo.bbklog.action.pull_serverConfig
+02-20 03:06:36.662  1628  5693 D _V_ActivityManager: StartMode packageName = com.google.android.apps.wellbeing ,pid = -1 ,alwaysRestrict = true ,startMode = 2 ,UidRec:UidRecord{2a44be0 u0a181 CEM  idle change:cached procs:1 seq(0,0,0)}
+02-20 03:06:36.664  1481  1533 D _V_BBK_LOG_SPManager: getConfig key:pull_server_config, def:false
+02-20 03:06:36.667  1481  1533 D _V_BBK_LOG_ReceiveHandler: ConnectionType: 0 isPull: false
+02-20 03:06:36.668  1481  1533 D _V_BBK_LOG_ReceiveHandler: Non-wifi network environment, Log config will be loaded after 1 mins
+02-20 03:06:36.668  1481  1533 D _V_BBK_LOG_LogUtil: vivoLogAlarm-> action: android.vivo.bbklog.action.pull_serverConfig
+02-20 03:06:36.669  1481  1533 D _V_BBK_LOG_LogUtil: cancel the same alarm setted before. action = android.vivo.bbklog.action.pull_serverConfig
+02-20 03:06:36.688  1628  1628 V _V_VivoStats: noteWhich 44, arg1 = 1000, arg2 = 1628, name = *alarm*
+02-20 03:06:36.689  1628  1628 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:36.691 29951 30024 W bpb     : Not invoking OnNextAlarmChangedListeners: com.bbk.updater, com.bbk.updater
+02-20 03:06:36.697 27184 27184 D _V_VivoPhoneWindowImpl: DEBUG_ALIENSCREEN:getRotation mRotation=0
+02-20 03:06:36.697 27184 27184 I PhoneWindow: initSystemUIColor
+02-20 03:06:36.710  3082  3345 D _V_PushInterfaceManager: Intent { act=com.bbk.updater.INSTALL_FORE_NOTI_CLICK pkg=com.bbk.updater }
+02-20 03:06:36.710  2507  2507 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:36.710  3082  3345 E VivoPush.PushInterfaceManager: (3082)onMessageReport messageId is not valid
+02-20 03:06:36.712 27184 27184 D _V_FlingOverScroller: sEnableThresholdVelocity=true
+02-20 03:06:36.712 27184 27184 D _V_startPhysical: setSpringFling=true
+02-20 03:06:36.713  2507  2507 I chatty  : uid=10067(com.android.systemui) identical 13 lines
+02-20 03:06:36.713  2507  2507 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:36.719  1628  5692 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:36.719  1628  5692 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51160055
+02-20 03:06:36.719  1481  1533 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1598 android.content.ContextWrapper.startService:669 com.android.bbklog.service.BbkLogServiceManager.f:2 com.android.bbklog.service.BbkLogServiceManager.e:1 com.android.bbklog.service.BbkLogServiceManager.b:3 
+02-20 03:06:36.734 27184 27184 D _V_VivoViewRootImplImpl: VivoViewRootImplImpl mScrollTopBackEnable: true
+02-20 03:06:36.734 27184 27184 D _V_VivoViewRootImplImpl: INPUT_WAIT_FOR_DRAW_COUNT_THREHOLD = 50, INPUT_WAIT_FOR_DRAW_TIME_THREHOLD = 5000, REQUEST_CHECK_INTERVAL_THRESHOLD = 60000
+02-20 03:06:36.737  1481  1481 D _V_BBK_LOG_BbkLogService: === BbkLogService onCreate===
+02-20 03:06:36.737  1481  1481 D _V_BBK_LOG_ServiceHandler: ServiceHandler-> build===  
+02-20 03:06:36.738 27184 27184 D _V_AppShare-ViewRootImpl: setTag : ViewRootImpl[]
+02-20 03:06:36.738  1481  1481 D _V_BBK_LOG_ServiceHandler: ServiceHandler mContext :com.android.bbklog.MyApplication@5170aad
+02-20 03:06:36.738  1481  1533 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1692 android.content.ContextWrapper.bindService:705 com.android.bbklog.service.BbkLogServiceManager.d:2 com.android.bbklog.service.BbkLogServiceManager.e:2 com.android.bbklog.service.BbkLogServiceManager.b:3 
+02-20 03:06:36.744  3994  1230 I GCoreUlr: WorldUpdater:NO_RECEIVER_ACTION: Ensuring that reporting is active for [account#18#]
+02-20 03:06:36.745  1628  5688 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = UlrDispSvcFastWL
+02-20 03:06:36.746  1628  5688 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:36.754  2507  2507 I _V_NotificationFreqHelper:  finishScheduleNotification,  spend: 44, 0|com.bbk.updater|1005|null|10145, size: 0/1
+02-20 03:06:36.756  5282  5442 I _V_VCodeI/ConfigManager: retryTimes is 180000
+02-20 03:06:36.756  5282  5442 I _V_VCodeI/ConfigManager: syncConfigFromServer: A317
+02-20 03:06:36.756  5282  5442 I _V_VCodeI/ConfigManager: A317lastTime is 1645273271532
+02-20 03:06:36.756  5282  5442 I _V_VCodeI/ConfigManager: versioncode is 100000modulever is 100000configInterval is 86400000spTime is27925224
+02-20 03:06:36.756  5282  5442 I _V_VCodeI/ConfigManager: A317lastTime is 1645273271532
+02-20 03:06:36.756  5282  5442 W _V_VCodeI/d: eventConfig is null. eventId = 106325
+02-20 03:06:36.757  2507  2507 I _V_SmartNoti: updateNotification() NotiKey = 0|com.bbk.updater|1005|null|10145 CustomImportance = -1
+02-20 03:06:36.758  1628  5519 V _V_VivoStats: noteAddWindow, pid = 27184, uid = 10145, attrs.type = 2003, pkg = com.bbk.updater
+02-20 03:06:36.759  1628  5519 D _V_VivoDisplayPolicyImpl: DEBUG_RATIOSWITCH:prepareAddWindowLw win=Window{adfa39b u0 com.bbk.updater},win.getAttrs().type=2003,callers=com.android.server.wm.DisplayPolicy.prepareAddWindowLw:1149 com.android.server.wm.WindowManagerService.addWindow:1651 com.android.server.wm.Session.addToDisplay:194 android.view.IWindowSession$Stub.onTransact:555 com.android.server.wm.Session.onTransact:169 
+02-20 03:06:36.759  1628  5519 E WindowManager: App trying to use insecure INPUT_FEATURE_NO_INPUT_CHANNEL flag. Ignoring
+02-20 03:06:36.762  1481  1481 D _V_BBK_LOG_UploadHistoryDao: updateLocalData
+02-20 03:06:36.767  1481  1537 D _V_BBK_LOG_UploadHistoryDao: checkDelayHistory path = /storage/emulated/0/bbklog_zip/.delaytemp
+02-20 03:06:36.768  1481  1537 D _V_BBK_LOG_UploadHistoryDao: checkDelayHistory path = /storage/emulated/0/bbklog_zip/.delaytemp is not exist.
+02-20 03:06:36.768  1481  1481 D _V_BBK_LOG_StatusHistoryDao: updateLocalData
+02-20 03:06:36.768  1481  1537 D _V_BBK_LOG_UploadHistoryDao: checkDelayHistory path = /storage/emulated/0/bbklog_zip/delay
+02-20 03:06:36.770  1481  1537 D _V_BBK_LOG_UploadHistoryDao: checkDelayHistory path = /storage/emulated/0/bbklog_zip/delay is not exist.
+02-20 03:06:36.770  1481  1537 D _V_BBK_LOG_SPManager: getConfig key:log.user.type, def:1
+02-20 03:06:36.772 27184 27184 D _V_WSlide: onAttachedToWindow
+02-20 03:06:36.772 27184 27184 I _V_TouchMotionHandler: handler onAttached
+02-20 03:06:36.772 27184 27184 I _V_TouchMotionHandler: window type filtered
+02-20 03:06:36.774  1481  1481 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.vivo.hardware.configstore@1.0::IVivoConfigStore/default
+02-20 03:06:36.775   527   527 D VivoConfigStore: VivoConfigStore::hasVivoFeature vivo.software.carnetworking
+02-20 03:06:36.775  1481  1481 D _V_BBK_LOG_BbkLogService: === BbkLogService onStartCommand===
+02-20 03:06:36.782   881  1930 I chatty  : uid=1000(system) Binder:881_3 expire 1 line
+02-20 03:06:36.784  1628  1858 D SuperResolutionWindowController: : SuperResolutionWindowController  windowsChanged  size = 0
+02-20 03:06:36.785  1628  1859 I _V_VivoWindowStateImpl: Force hiding visibility changed, visible = false, win = Window{adfa39b u0 com.bbk.updater}
+02-20 03:06:36.785  1628  1859 V _V_VivoDisplayContentImpl: Now policy hidden by force hiding: Window{adfa39b u0 com.bbk.updater}
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: QUALCOMM build                   : deeb792, Ief2e475f42
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: Build Date                       : 09/08/20
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.29.00.13
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: Local Branch                     : 
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.8.15.R1.10.00.00.643.053
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: Remote Branch                    : NONE
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: Build Config                     : S P 8.0.16 AArch64
+02-20 03:06:36.788 27184  1535 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+02-20 03:06:36.790  1481  1481 D _V_BBK_LOG_BbkLogServiceManager: Bind to service successfully
+02-20 03:06:36.800 27184  1535 I AdrenoGLES-0: PFP: 0x016ee188, ME: 0x00000000
+02-20 03:06:36.806  2507  2507 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:36.807  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:36.807  2507  2507 I _V_KeyguardNotificationManager: onNotificationAdd, show = true, pkg = com.bbk.updater, id = 1005, isAppLocked = false, mKeyguardNotificationCount = 3, isKeyguardShowingWithoutShade() = true, getState() = 1
+02-20 03:06:36.807  2507  2507 I _V_KeyguardNotificationManager: addKeyguardNotificationData --- key = 0|com.bbk.updater|1005|null|10145
+02-20 03:06:36.808  2507  2507 I _V_KeyguardNotificationManager: addKeyguardNotificationData --- key = 0|com.bbk.updater|1005|null|10145
+02-20 03:06:36.808  2507  2507 I chatty  : uid=10067(com.android.systemui) identical 20 lines
+02-20 03:06:36.808  2507  2507 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:36.811  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:36.811  2507  2507 I chatty  : uid=10067(com.android.systemui) identical 6 lines
+02-20 03:06:36.811  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:36.811  2507  2507 I _V_NotificationContainerParentFloor: hasDismissedChild= true
+02-20 03:06:36.811  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:36.830  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:36.890  1481  1533 D _V_BBK_LOG_BbkLogServiceManager: Service start time: time = 100
+02-20 03:06:36.891  1481  1533 E _V_BBK_LOG_BbkLogService: call kill myself
+02-20 03:06:37.140  3368  7665 I _V_RMS-Reclaim: available=3907280KB, current watermark=1228800KB, last watermark=1228800KB, current stopline=800, last stopline=1000 curlevel=4
+02-20 03:06:37.140  3368  7665 I _V_RMS-Reclaim: Reclaiming took : 1ms
+02-20 03:06:37.262  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:37.264  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:37.264  2507  2507 I _V_NotificationContainerParentFloor: hasDismissedChild= true
+02-20 03:06:37.264  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:37.264  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:37.532   657  5582 I netd    : firewallSetUidRule(1, 10096, 2) <0.05ms>
+02-20 03:06:37.535  1628  2336 D ConnectivityService: Blocked status changed to true for 10096(616) on netId 105
+02-20 03:06:37.535  1628  2336 D ConnectivityService: sending notification CALLBACK_BLK_CHANGED for NetworkRequest [ LISTEN id=616, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN&FOREGROUND Uid: 10096] ]
+02-20 03:06:37.569   657  5582 I netd    : firewallSetUidRule(1, 10055, 2) <0.06ms>
+02-20 03:06:37.629 27184 27227 I _V_Updater/InstallService: Checking if md5 was right...
+02-20 03:06:38.046  1310  8602 I LOWI-8.6.0.75: [LOWI-Scan] lowi_close_record:Scan done in 51141665ms, 1 APs in scan results
+02-20 03:06:38.046  1628  5692 D WificondControl: Scan result ready event
+02-20 03:06:38.053  1628  2335 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.054  1628  2335 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161390
+02-20 03:06:38.062  1628  5692 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.063  1628  5692 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.064  1628  5692 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.066  1628  3282 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.066  1628  3282 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.070  1628  2325 D WakeupController: Attempted to handleScanResults while not enabled
+02-20 03:06:38.070  2507  2997 D NetworkController: onReceive: intent=Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) }
+02-20 03:06:38.070  1628  3282 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.071  1628  3282 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.075  1628  1902 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.076  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.077  1628  5692 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.079  1628  3282 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.107  1628  3282 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.107  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.107  3994  3994 I chatty  : uid=10180 com.google.android.gms.persistent identical 1 line
+02-20 03:06:38.108  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.110  1628  5692 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.110  1628  5692 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.111  1628  3282 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.111  1628  3282 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.112  1628  3298 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.112  1628  3298 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.113  1628  5688 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.113  1628  5688 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.114  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.114  1628  5519 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.116  1628  3298 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.116  1628  3298 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.117  1628  5692 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.118  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.118  1628  5519 V _V_VivoStats: noteWhich 43, arg1 = 10195, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.119  1628  5692 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.119  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.121  1628  5648 D VSNS_NetworkLocationProvider: reportLocation, mNlpIndex:1, mIsDoubleNlpStarted:false, mIsSelecting:false
+02-20 03:06:38.121  1628  5648 D VSNS_NetworkLocationProvider: reportLocation broadcast:true, nlpId:1, from NLP_INDEX_GMS
+02-20 03:06:38.121  1628  3282 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.123  1628  3282 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.124  1628  5688 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.124  1628  5688 V _V_VivoStats: noteWhich 43, arg1 = 10195, arg2 = 3994, name = FusedLocation
+02-20 03:06:38.124  1628  5688 V _V_VivoStats: noteWhich 43, arg1 = 10195, arg2 = 3994, name = FusedLocation
+02-20 03:06:38.125  1628  2352 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.125  1628  2352 V _V_VivoStats: noteWhich 43, arg1 = 1000, arg2 = 1628, name = *location*
+02-20 03:06:38.126  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.127  1628  5519 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = CMWakeLock
+02-20 03:06:38.128  1628  5688 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.128  1628  5688 V _V_VivoStats: noteWhich 43, arg1 = 10195, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.130  1628  3282 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.131  4734  4734 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.132  1628  5519 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.132  1628  3282 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.133  1628  2352 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.133  1628  2352 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 1628, name = *location*
+02-20 03:06:38.133  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.134  1628  5692 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.134  1628  5692 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.135  1628  5519 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.135  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.135  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.136  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = FusedLocation
+02-20 03:06:38.136  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = FusedLocation
+02-20 03:06:38.137  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.137  1628  3282 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = CMWakeLock
+02-20 03:06:38.137  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.138  1628  3282 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.140  1628  3298 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.140  4821  6493 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.140  1628  3298 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161476
+02-20 03:06:38.140  1628  2352 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.140  1628  2352 V _V_VivoStats: noteWhich 43, arg1 = 99910180, arg2 = 1628, name = *location*
+02-20 03:06:38.140  1628  3298 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.140  1628  3298 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161476
+02-20 03:06:38.142  1628  2352 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.142  1628  2352 V _V_VivoStats: noteWhich 43, arg1 = 99910180, arg2 = 1628, name = *location*
+02-20 03:06:38.143  4821  4821 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.143  1628  5688 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.143  1628  5688 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161479
+02-20 03:06:38.143  1628  5693 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.143  1628  5693 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = UlrDispSvcFastWL
+02-20 03:06:38.145  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.145  1628  5519 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.145  1628  2352 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.145  1628  5519 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161481
+02-20 03:06:38.145  1628  5519 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.145  1628  5519 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161481
+02-20 03:06:38.145  1628  5688 W _V_PendingIntentControllerImpl: Collect PendingIntent  Key{broadcastIntent pkg=com.google.android.gms intent=act=com.google.android.location.fused.LOCATION_STATUS_ALARM_ACTION_ALARM_724 pkg=com.google.android.gms flags=0x0 u=0} count = 100
+02-20 03:06:38.146  1628  2352 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 1628, name = *location*
+02-20 03:06:38.148  1628  3282 V _V_VivoStats: noteWhich 44, arg1 = 99910180, arg2 = 1628, name = *location*
+02-20 03:06:38.148  1628  3282 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.149  1628  5692 V _V_VivoStats: noteWhich 44, arg1 = 99910180, arg2 = 1628, name = *location*
+02-20 03:06:38.149  1628  5692 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.150  1628  5688 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.150  1628  5688 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.150  1628  5519 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.151  1628  5519 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161486
+02-20 03:06:38.151  1628  5693 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 1628, name = *location*
+02-20 03:06:38.151  1628  5693 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.152  1628  5688 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.152  1628  5688 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.152  1628  5693 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.152  3994  5937 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.153  1628  5693 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.153  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 1628, name = *location*
+02-20 03:06:38.153  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.154  1628  5692 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.154  1628  2352 V _V_VivoStats: noteWhich 44, arg1 = 1000, arg2 = 1628, name = *location*
+02-20 03:06:38.154  1628  5692 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161490
+02-20 03:06:38.154  1628  5692 W _V_AlarmAlign: Doont set to kernel
+02-20 03:06:38.154  1628  5692 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 51161490
+02-20 03:06:38.154  1628  2352 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.155  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.155  1628  5519 V _V_VivoStats: noteWhich 43, arg1 = 10195, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.156  3994  1230 I GCoreUlr: Successfully inserted 1 locations
+02-20 03:06:38.157  1628  5519 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.157  1628  5692 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = UlrDispSvcFastWL
+02-20 03:06:38.157  1628  5692 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.159  1628  5519 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.159  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.159  3994  3994 I chatty  : uid=10180 com.google.android.gms.persistent identical 1 line
+02-20 03:06:38.159  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.160  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.160  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.162  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.162  1628  5519 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.164  1628  5519 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.166  1628  5519 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.166  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.167  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.167  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.169  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.169  1628  5519 V _V_VivoStats: noteWhich 43, arg1 = 10195, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.171  1628  5519 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.172  1628  5519 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.172  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.173  3994  3994 I chatty  : uid=10180 com.google.android.gms.persistent identical 1 line
+02-20 03:06:38.173  3994  3994 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:38.173  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.173  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.174  1628  5693 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.174  1628  5693 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.174  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = NlpWakeLock
+02-20 03:06:38.174  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.175  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.175  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.176  1628  5693 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.176  1628  5693 V _V_VivoStats: noteWhich 43, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.177  1628  5519 V _V_VivoStats: noteWhich 44, arg1 = 10180, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.178  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.179  1628  5519 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.179  1628  5519 V _V_VivoStats: noteWhich 43, arg1 = 10195, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.180  1628  5693 V _V_VivoStats: noteWhich 44, arg1 = 10195, arg2 = 3994, name = GCoreFlp
+02-20 03:06:38.181  1628  5693 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:38.710  2507  2507 I _V_NotificationFreqHelper: debugNotificationHistory during 2000, 
+02-20 03:06:39.024 27184 27227 D _V_Updater/InstallService: md5  Calculated digest fota: 12336df3a52a8133f061bef7ec443d4f, vgc: 
+02-20 03:06:39.024 27184 27227 D _V_Updater/InstallService: md5  Provided digest: 12336df3a52a8133f061bef7ec443d4f, vgc: null
+02-20 03:06:39.024 27184 27227 I _V_Updater/InstallService: Is md5 right? true
+02-20 03:06:39.024 27184 27227 I _V_Updater/InstallService: isMonkeyTest: false
+02-20 03:06:39.025 27184 27227 I _V_Updater/InstallService: Send sendBroadcast file path is /data/vivo-updater/com.bbk.updater/OTAPackage/fbe8f1fcbdc9af9b8feda00dc10911ad.zip
+02-20 03:06:39.025 27184 27227 I _V_Updater/StrategyFactory: onUpdateStart
+02-20 03:06:39.025 27184 27184 I _V_Updater/InstallService: Get install event : 32
+02-20 03:06:39.025 27184 27184 I _V_Updater/InstallService: setUpdater:32
+02-20 03:06:39.027 27184 27184 D _V_WSlide: onDetachedFromWindow
+02-20 03:06:39.027 27184 27184 I _V_TouchMotionHandler: handler onDetached
+02-20 03:06:39.028  1628  5693 I _V_SettingsProvider: insert settings success:true, table:SETTINGS_SYSTEM name:bbk_update_notice value:0 pkg:com.bbk.updater userId:0
+02-20 03:06:39.030  1628  5693 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:39.030 27184 27227 I _V_Updater/CommonUtils: notice launcher and updater 0(1:has new update)
+02-20 03:06:39.031  1628  5693 I _V_SettingsProvider: insert settings success:true, table:SETTINGS_GLOBAL name:vivo_update_available value:0 pkg:com.bbk.updater userId:0
+02-20 03:06:39.031  1628  1902 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:39.031  1628  5693 I _V_SettingsProvider: insert settings success:true, table:SETTINGS_GLOBAL name:vivo_update_version value: pkg:com.bbk.updater userId:0
+02-20 03:06:39.032  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 0: content://settings/system/bbk_update_notice
+02-20 03:06:39.032  1628  5693 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:39.032  1628  1628 V SettingsProvider: Notifying for 0: content://settings/system/bbk_update_notice
+02-20 03:06:39.032 27184 27227 I _V_Updater/strategy/EnhancedUpdateStrategy: onUpdateStart
+02-20 03:06:39.033  1628  1902 D _V_ActivityManager: StartMode packageName = com.bbk.updater ,pid = -1 ,alwaysRestrict = true ,startMode = 2 ,UidRec:UidRecord{cb68287 u0a145 FGS  fgServices change:active procs:2 seq(0,0,0)}
+02-20 03:06:39.036  1628  3282 V _V_VivoStats: removeWindow, pid = 27184, uid = 10145, attrs.type = 2003, pkg = com.bbk.updater
+02-20 03:06:39.036  1628  3282 V _V_VivoStats: noteWindowHide, pid = 27184, uid = 10145, attrs.type = 2003, pkg = com.bbk.updater
+02-20 03:06:39.066   881   881 I chatty  : uid=1000(system) /system/bin/surfaceflinger expire 1 line
+02-20 03:06:39.071  1628  1858 D SuperResolutionWindowController: : SuperResolutionWindowController  windowsChanged  size = 0
+02-20 03:06:39.086  1628  1902 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:39.089  1628  5693 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:39.090  3762  3762 I _V_Updater/remote/RefreshTimerReceiver: Refresh timer! Action is new.com.vivo.updater.config_alarm
+02-20 03:06:39.090  3762  3762 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:39.090  3762  3762 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:39.091  3762  3762 I _V_Updater/remote/RefreshTimerReceiver: Bundle[mParcelledData.dataSize=156]
+02-20 03:06:39.091  3762  3762 I _V_Updater/remote/RefreshTimerReceiver: isRepeatAlarm: false, isSetExact: false, startDelayTime: 0,intervalTime: 0 ,selfUpgradeAlarmTimes:-1
+02-20 03:06:39.091  3762  3762 I _V_Updater/remote/AlarmUtils: Cancel alarm : com.vivo.updater.demo_video_install
+02-20 03:06:39.091 27184 27227 I _V_Updater/strategy/EnhancedUpdateStrategy: Send broadcast to to cancel update tips!
+02-20 03:06:39.092 27184 27184 W updater-data-wo: type=1400 audit(0.0:52525): avc: denied { read } for name="u:object_r:vendor_radio_prop:s0" dev="tmpfs" ino=22646 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_radio_prop:s0 tclass=file permissive=0
+02-20 03:06:39.093  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 0: content://settings/global/vivo_update_available
+02-20 03:06:39.094  1628  1628 V SettingsProvider: Notifying for 0: content://settings/global/vivo_update_available
+02-20 03:06:39.095  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 999: content://settings/global/vivo_update_available
+02-20 03:06:39.095  1628  1628 V SettingsProvider: Notifying for 999: content://settings/global/vivo_update_available
+02-20 03:06:39.097  1628  5692 D _V_ActivityManager: StartMode packageName = com.bbk.updater ,pid = -1 ,alwaysRestrict = true ,startMode = 2 ,UidRec:UidRecord{cb68287 u0a145 FGS  fgServices change:active procs:2 seq(0,0,0)}
+02-20 03:06:39.097 27184  1542 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:39.097  1628  5692 I _V_Bundle: copyInternal mMap become null. deep is false
+02-20 03:06:39.097  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:39.099  3762  3762 I _V_Updater/remote/RefreshTimerReceiver: Refresh timer! Action is new.com.vivo.updater.action.CANCEL_REMIND
+02-20 03:06:39.099  3762  3762 I _V_Updater/remote/AlarmUtils: Cancel alarm : com.vivo.updater.action.INSTALL_ALARM
+02-20 03:06:39.109 27184  1542 E libc    : Access denied finding property "persist.vendor.radio.msim.stackid_0"
+02-20 03:06:39.111  2466  4273 I _V_VCodeI/ConfigManager: A76 check config: spilt time:1645301199111; retry time is180000; configInterval:311040000; spTime:300352943; versioncode:5000601; modulever:5000601;; return false
+02-20 03:06:39.111  2466  4273 I _V_VCodeI/d: event postSwitch close. eventId = A76|10016
+02-20 03:06:39.113  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 0: content://settings/global/vivo_update_version
+02-20 03:06:39.113  1628  1628 V SettingsProvider: Notifying for 0: content://settings/global/vivo_update_version
+02-20 03:06:39.114  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 999: content://settings/global/vivo_update_version
+02-20 03:06:39.114  1628  1628 V SettingsProvider: Notifying for 999: content://settings/global/vivo_update_version
+02-20 03:06:39.127 27184 27227 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:39.128 27184 27227 I _V_Updater/DownloadInfoManager: fota download status query result is 3,vgcstatus: -1
+02-20 03:06:39.128 27184 27227 I _V_Updater/DownloadInfoManager: fota download status query result is 3
+02-20 03:06:39.130 27184 27227 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:39.130  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:39.131 27184 27227 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:39.132  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:39.132 27184 27227 I _V_Updater/usage/SmartInstallUtils: isSmartInstallEnable fotaUpdateInfo
+02-20 03:06:39.133 27184 27227 D _V_Updater/usage/SmartInstallUtils: Is intelligent install open? true
+02-20 03:06:39.133 27184 27227 D _V_Updater/usage/SmartInstallUtils: Is intelligent install config enable? true
+02-20 03:06:39.133 27184 27227 D _V_Updater/usage/SmartInstallUtils: Is night install selected? false
+02-20 03:06:39.133 27184 27227 D _V_Updater/usage/SmartInstallUtils: Is demo ? false
+02-20 03:06:39.136  3180  4097 D VivoPhoneInterface: [PhoneIntfMgr] vivoTelephonyApi() tag = API_TAG_getIccLockEnabled
+02-20 03:06:39.137  3180  4097 D VivoPhoneInterface: [PhoneIntfMgr] vivoTelephonyApi() tag = API_TAG_getIccLockEnabled
+02-20 03:06:39.140 27184  1542 I _V_Updater/CommonUtils: getElectricQuantity :52
+02-20 03:06:39.140 27184 27227 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:39.141  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:39.142 27184 27227 I _V_Updater/PrivacyTermsHelper: lastAgreedVersion:	targetVersion:1.9.15
+02-20 03:06:39.144 27184 27227 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:39.145 27184  1542 I _V_Updater/IdentifierHelper: supportIdentifier:false
+02-20 03:06:39.145  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:39.146 27184 27227 I _V_Updater/CommonUtils: isVivoUpdaterExistAndWritable: true
+02-20 03:06:39.146 27184  1542 E _V_SecurityKey: com.bbk.updater: check collect data permisson: PERMISSION_DENIED
+02-20 03:06:39.146 27184  1542 D _V_Updater/utils/HttpUtils: reValue:<--Updater-EnStr-->ACwAAAAAiSYGXQABHGpuaXNnbWFpbl92MkBjb20uYmJrLnVwZGF0ZXIAAgW0SITITUd8hRCt6X_nanODK0zEU4kIodJ7SRpOY_WaofUpzlN8H7L2ldJuhLaMh1YeVy3o0djVsAePwN6GNpx0-2iTGgl7UzwKXfig3aOogCIVD-d8xW7J6JCSQewCB4i9F5m6rAbmKMs-a4qWjgdPLfbYCd8Y-yo_unvVFPjnGPfZc4bSQm0QmisizWXo3tL4DDU2FBiJ1Ng104T_MVQPYT0M3si-dXvDxJoH6bTpRyfbinZgwSs_22ZrFKEiAWeJOrAEKQW2kx4HXrm2QHukqQAeLRJeeJgA9ETgxUWlpwZwhVrDoxhEtB0inuWA5qVm-b0CdddW3XLwrDlxOG6sQ1OFzLs7NBiRtJKtZ3e10CoUJjUWs8qhcij_GapCaICM2epQ8goYCiZign-vbEKOc1-co8YABhul4ZNg9-EJADvZbtjdWXi6jizasnqeV1O5KIWNYS7m0QoqnEP_fl1ahimB6RZhw-Ym8Lm1ObnGtzvqAUsGVf9tvMd6ZsQcWJxLxeTrXBXieGykzwV_9pa_HyVK_gE2hX3BaVuKac5RvEO9cblN_ErzQ9rwUv24qvJjKZ54zdQCd0i9V8L4qtZggVucoLq7QGzqUGw-ENC-nkvrRZ36vRlue-ISt-0u8_o0L7hU4y-6bcE9EoNj6xurTNP56igIvCrMxj3wqEtp8hCXAvSgWKyXHxDftbGE-SaQO94AlC6thSozy6-ahcs6SWB8FhOEXA277fC8QKqFhzTR3CvpfL9NkWMEWiHthbY8PDoK45SUXs-yxUoGB9Oo0arBqIcpYEJjvFFauwU_qMGL7QmjLijOsIUmQWH4HNwJkXgsGzWxEFUr0UNLHtXeAG02kVxpLmCMoCJOAbMWaQ
+02-20 03:06:39.148 27184  1542 E _V_SecurityKey: com.bbk.updater: check collect data permisson: PERMISSION_DENIED
+02-20 03:06:39.151 27184 27227 I _V_Updater/PrivacyTermsHelper: list is not exist, unZip:true
+02-20 03:06:39.152 27184 27227 E _V_Updater/IOUtils: readFile Exception java.io.FileNotFoundException: /data/vivo-updater/com.bbk.updater/OTAPackage/PRIVACY_TERM/privacyTermsList.txt: open failed: ENOENT (No such file or directory)
+02-20 03:06:39.152 27184 27227 D _V_Updater/usage/SmartInstallUtils: isSmartInstallEnable ? true
+02-20 03:06:39.164 27184  1542 I _V_Updater/strategy/DataStatisticsStrategy: triggerDataUpload
+02-20 03:06:39.165 27184 27227 I _V_Updater/CommonUtils: getElectricQuantity :52
+02-20 03:06:39.166 27184 27230 D _V_Updater/CommonUtils: connect type = 0
+02-20 03:06:39.167 27184 27230 D _V_Updater/CommonUtils: connect type = 0
+02-20 03:06:39.169 27184 27227 I _V_Updater/CommonUtils: set updating: true
+02-20 03:06:39.173  1628  3282 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:39.174  1628  3282 V _V_VivoStats: noteWhich 43, arg1 = 1000, arg2 = 1628, name = NetworkStats
+02-20 03:06:39.176  1628  3282 D NtpTrustedTime: currentTimeMillis() cache hit
+02-20 03:06:39.177   657  5582 I netd    : trafficSwapActiveStatsMap() <0.92ms>
+02-20 03:06:39.179  1628  5693 I _V_SettingsProvider: insert settings success:true, table:SETTINGS_GLOBAL name:com.bbk.updater.silent value:1 pkg:com.bbk.updater userId:0
+02-20 03:06:39.181  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 0: content://settings/global/com.bbk.updater.silent
+02-20 03:06:39.182  1628  1628 V SettingsProvider: Notifying for 0: content://settings/global/com.bbk.updater.silent
+02-20 03:06:39.182  1628  5693 I _V_SettingsProvider: insert settings success:true, table:SETTINGS_GLOBAL name:system_unlock_state value:0 pkg:com.bbk.updater userId:0
+02-20 03:06:39.183   657  5582 I netd    : tetherGetStats() <2.86ms>
+02-20 03:06:39.184  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 999: content://settings/global/com.bbk.updater.silent
+02-20 03:06:39.184  1628  1628 V SettingsProvider: Notifying for 999: content://settings/global/com.bbk.updater.silent
+02-20 03:06:39.187  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 0: content://settings/global/system_unlock_state
+02-20 03:06:39.187  1628  1628 V SettingsProvider: Notifying for 0: content://settings/global/system_unlock_state
+02-20 03:06:39.189  1628  1628 D _V_SettingsProvider: Notifying for fei SecurityException 999: content://settings/global/system_unlock_state
+02-20 03:06:39.189  1628  1628 V SettingsProvider: Notifying for 999: content://settings/global/system_unlock_state
+02-20 03:06:39.209 27184 27227 E _V_Updater/receiver/UpdateReceiver: updater file = /data/vivo-updater/com.bbk.updater/OTAPackage/fbe8f1fcbdc9af9b8feda00dc10911ad.zip
+02-20 03:06:39.211 27184 27227 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:39.211  3762  3781 I _V_Updater/UpdateDownloadManager-: getDownloadInfo mOTADownloadInfo: task: ota_pacakge; downloadId: 12; downloadingVer1.9.15; currentBytes: 186378343; totalBytes: 186378343; status: 3; isHang: false; hangBytes: 0 , mVgcDownloadInfo: null
+02-20 03:06:39.213  1628  5693 I _V_SettingsProvider: insert settings success:false, table:SETTINGS_GLOBAL name:system_unlock_state value:0 pkg:com.bbk.updater userId:0
+02-20 03:06:39.215  1628  5693 W StorageManagerService: getVolmeList calling uid:10145
+02-20 03:06:39.216 27184 27227 I _V_Updater/DownloadInfoManager: Delete download record
+02-20 03:06:39.216 27184 27227 I _V_Updater/DownloadInfoManager: isBinderAlive = true
+02-20 03:06:39.217  3762  3781 I _V_Updater/UpdateDownloadManager-: cancelDownload
+02-20 03:06:39.220 27184  1548 W _V_Updater/receiver/UpdateReceiver: !!! SYSTEM UPDATE !!!
+02-20 03:06:39.220 27184  1548 D _V_Updater/receiver/UpdateReceiver: mIsLocal=false, mIsP2p=false, mIsAutoUpdateTest=false, mIsSilentInstallation=true
+02-20 03:06:39.220 27184  1548 I _V_Updater/CommonUtils: vivo_daemon version:3.1.0
+02-20 03:06:39.224  1628  3282 D NtpTrustedTime: currentTimeMillis() cache hit
+02-20 03:06:39.226  1628  3282 D NtpTrustedTime: currentTimeMillis() cache hit
+02-20 03:06:39.228  1628  3282 V _V_VivoStats: noteWhich 44, arg1 = 1000, arg2 = 1628, name = NetworkStats
+02-20 03:06:39.228  1628  3282 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1 as request 345
+02-20 03:06:39.229  7429  7429 D _V_DataUsageService: receiver stats update!
+02-20 03:06:39.230  7429  7518 D _V_UsageLimitCheckTask: onStatsUpdate
+02-20 03:06:39.230  7429  7518 I _V_UsageLimitCheckTask: stats update and current network is mobile!
+02-20 03:06:39.230  7429  7518 D _V_MonthLimitCheckHelper: need check: false
+02-20 03:06:39.230  7429  7518 D _V_DayLimitCheckHelper: need check: false
+02-20 03:06:39.230  7429  7518 D _V_UsageLimitCheckTask: need update policy? false, unlock remind is null? true
+02-20 03:06:39.230  7429  7518 D _V_RemindFlowDisplayTask: onStatsUpdate, mobile connected: true, mobile data changed: false
+02-20 03:06:39.230  7429  7518 D _V_DateCalculate: getTodayStartTime current time: 1645301199230, today start time: 1645290000000
+02-20 03:06:39.230  7429  7518 D _V_DateCalculate: getTodayEndTime current time: 1645301199230, today end time: 1645376399999
+02-20 03:06:39.240  7429  7518 D _V_VivoNetworkStatsManager: start time: 1645290000000, end time: 1645376399999, total usage: 122433743
+02-20 03:06:39.240  7429  7518 D _V_DateCalculate: getCurrentMonthBeginTime currentTime: 1645301199230, result: 1643648400000
+02-20 03:06:39.250  7429  7518 D _V_VivoNetworkStatsManager: start time: 1643648400000, end time: 1645301199230, total usage: 13842784419
+02-20 03:06:39.251  7429  7518 D _V_RemindFlowDisplayTask: connect sim flow is: SIM2    Hari ini: 116,8MB    Terpakai di bulan ini: 12,89GB, connected slot is: 1
+02-20 03:06:39.252  1550  1550 W setprop : type=1400 audit(0.0:52526): avc: denied { read } for name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=22622 scontext=u:r:vivo_daemon:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+02-20 03:06:39.252  7429  7518 D _V_RemindFlowDisplayTask: there is no need send data: true, split: false, expand: false, connectionInfo: true
+02-20 03:06:39.252  7429  7518 D _V_NetSpeedDisplayTask: onStatsUpdate
+02-20 03:06:39.252 27184 27230 I _V_Updater/strategy/DataStatisticsStrategy: lastUse: 0.116740234,currentUse: 0.116740234,diff: 0.0,highestData: 1.0
+02-20 03:06:39.252  7429  7518 V _V_NetSpeedDisplayTask: onStatsUpdate: 1386774329, last stats update time: 51162588
+02-20 03:06:39.252  7429  7518 D _V_BadUsageCheckTask: onStatsUpdate
+02-20 03:06:39.255  7429  7518 E _V_SystemAppConfiguration: updateConfig failed: No value for system_app_data_monitor
+02-20 03:06:39.256  7429  7518 D _V_SystemServiceConfig: update config: {"system_service_monitor_on":1,"system_service_monitor_custom_bar":{"com.vivo.aiservice":20480,"com.vivo.aiengine":20480,"com.vivo.abe":5120,"com.vivo.pem":100,"com.vivo.daemonService":4096,"com.vivo.pushservice":1024,"com.android.settings":2560,"com.vivo.sdkplugin":25600,"com.mobile.cos.iroaming":10,"com.android.phone":10,"com.android.wifisettings":5120,"com.android.packageinstaller":5120,"com.vivo.sos":5120,"com.vivo.agent":10240,"com.vivo.vtouch":102400,"com.vivo.voicewakeup":51200,"com.vivo.networkimprove":500,"com.vivo.weather":3072,"com.vivo.weather.provider":5120,"com.vivo.shortcutcenter":1024,"com.vivo.smartmultiwindow":1024,"com.baidu.input.vivo":300,"com.sohu.inputmethod.sogou.vivo":20480,"com.android.filemanager":7168,"com.android.mms":81920,"com.vivo.hiboard":51200,"com.bbk.theme":614400,"com.vivo.easyshare":600,"com.vivo.share":100,"com.vivo.email":61440,"com.iqoo.trafficupgrade":102400,"com.iqoo.secure":500,"com.vivo.assistant":307200,"com.vivo.secime.service":1024,"com.android.BBKPhoneInstructions":1024,"com.android.providers.calendar":1024,"com.vivo.widget.calendar":1024,"com.vivo.FMRadio":1024,"com.android.newfeaturedemo":5120,"com.vivo.doubletimezoneclock":1024,"com.vivo.dream.clock":1024,"com.vivo.dream.weather":1024,"com.bbk.launcher2":102400,"com.vivo.vms":10240,"com.vivo.hybrid":102400,"com.emoji.keyboard.touchpal.vivo":300,"com.kikaoem.vivo.qisiemoji.inputmethod":300,"com.google.android.inputmethod.latin":300,"com.bbk.calendar":2048,"com.vivo.magazine":204800,"com.android.bbkmusic":1048576,"com.android.camera":10240,"com.vivo.nightpearl":40960,"com.vivo.favorite":122880,"com.vivo.gallery":2097152,"com.vivo.numbermark":5120,"com.vivo.Tips":153600,"com.vivo.floatingball":10240,"com.bbk.account":81920,"com.vivo.symmetry":102400,"com.vivo.space":81920,"com.vivo.browser":102400,"com.vivo.singularity":102400,"com.android.providers.downloads":10240,"com.vivo.wallet":81920,"com.vivo.iroaming":51200,"com.vivo.contentcatcher":102400,"com.vivo.videoeditor":1048576,"com.bbk.appstore":5242880,"com.android.VideoPlayer":5242880,"com.vivo.game":5242880,"com.bbk.cloud":5242880,"com.vivo.health":204800,"com.vivo.minigamecenter":3072,"com.vivo.findphone":512000,"com.vivo.gallery.cloudagent":2097152,"com.android.demovideo":5120,"com.android.iqoovideo":5120,"com.vivo.ai.ime":1024},"system_service_monitor_abrupt_custom_bar":{"com.vivo.aiservice":40960,"com.vivo.aiengine":40960,"com.vivo.abe":10240,"com.vivo.pem":300,"com.vivo.daemonService":8192,"com.vivo.pushservice":1024,"com.android.settings":3072,"com.vivo.sdkplugin":102400,"com.mobile.cos.iroaming":100,"com.android.phone":20,"com.android.wifisettings":10240,"com.android.packageinstaller":10240,"com.vivo.sos":51200,"com.vivo.agent":20480,"com.vivo.vtouch":204800,"com.vivo.voicewakeup":102400,"com.vivo.networkimprove":1500,"com.vivo.weather":6144,"com.vivo.weather.provider":10240,"com.vivo.shortcutcenter":5120,"com.vivo.smartmultiwindow":2048,"com.baidu.input.vivo":10240,"com.sohu.inputmethod.sogou.vivo":51200,"com.android.filemanager":51200,"com.android.mms":204800,"com.vivo.hiboard":81920,"com.bbk.theme":1048576,"com.vivo.easyshare":1024,"com.vivo.share":200,"com.vivo.email":81920,"com.iqoo.trafficupgrade":153600,"com.iqoo.secure":10240,"com.vivo.assistant":337920,"com.vivo.secime.service":5120,"com.android.BBKPhoneInstructions":5120,"com.android.providers.calendar":5120,"com.vivo.widget.calendar":5120,"com.vivo.FMRadio":5120,"com.android.newfeaturedemo":20480,"com.vivo.doubletimezoneclock":5120,"com.vivo.dream.clock":5120,"com.vivo.dream.weather":5120,"com.bbk.launcher2":204800,"com.vivo.vms":20480,"com.vivo.hybrid":1048576,"com.emoji.keyboard.touchpal.vivo":1024,"com.kikaoem.vivo.qisiemoji.inputmethod":1024,"com.google.android.inputmethod.latin":1024,"com.bbk.calendar":5120,"com.vivo.magazine":512000,"com.android.bbkmusic":4194304,"com.android.camera":20480,"com.vivo.nightpearl":81920,"com.vivo.favorite":204800,"com.vivo.gallery":5242880,"com.vivo.numbermark":10240,"com.vivo.Tips":204800,"com.viv
+02-20 03:06:39.257  7429  7518 D _V_DateCalculate: getTodayStartTime current time: 1645301199257, today start time: 1645290000000
+02-20 03:06:39.257  7429  7518 D _V_BadUsageCheckTask: do day check! start time: 1645290000000, check time: 1645301199257
+02-20 03:06:39.261  3762  3781 I _V_Updater/UpdateDownloadManager-ICDM-MULTI-DownloadNotifier: cancelAllNotification id:12
+02-20 03:06:39.264  3762  3781 I _V_Updater/UpdateDownloadManager-ICDM-MULTI-DownloadProvider: database deleted, cancel all notification of id 12
+02-20 03:06:39.266  1550  1550 E libc    : Access denied finding property "ro.vendor.net.upload.benchmark.default"
+02-20 03:06:39.277 27184 27230 I _V_Updater/strategy/DataStatisticsStrategy: lastUse: 0.116740234,currentUse: 0.116740234,diff: 0.0,highestData: 1.5
+02-20 03:06:39.277 27184 27230 I _V_Updater/strategy/DataStatisticsStrategy: isHighOneLevel: false,isHighTwoLevel: false
+02-20 03:06:39.278  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:39.278 27184 27230 D _V_Updater/CommonUtils: connect type = 0
+02-20 03:06:39.278  2507  2507 I _V_SmartNoti: isKeyguardNotificationEnabled(), CustomImportance: -1
+02-20 03:06:39.280   657  1442 I         : printUidInfo uid(10145), UidInfo is 0@0
+02-20 03:06:39.280   657  1442 I         : queryResolvNetidForUid the app(10145)'s resolve netid is 0
+02-20 03:06:39.280   657  1442 E         : QUERY_RESOLV_NETID command.uid:10145, nid:0
+02-20 03:06:39.281  1079 16155 D _V_vivo_daemon:VvDmSrv: [10145:27184] apply, return 0, v3.1.0
+02-20 03:06:39.281  1079 16155 D _V_vivo_daemon:VvDmSrv: normal termination, exit status = 0
+02-20 03:06:39.283 27184  1548 D _V_Updater/receiver/UpdateReceiver: updateModeFile = /data/vivo-updater/com.bbk.updater/OTAPackage/fbe8f1fcbdc9af9b8feda00dc10911ad.zip
+02-20 03:06:39.283 27184  1548 D _V_Updater/receiver/UpdateReceiver: --mode=update_silent
+02-20 03:06:39.283 27184  1548 D _V_Updater/receiver/UpdateReceiver: --time=22_02_20-03_06_39
+02-20 03:06:39.286 27184  1548 I System.out: parserXml failed, then return false
+02-20 03:06:39.287  3762  3781 I _V_Updater/remote/UpdateDownloadNoti: cancel download notification
+02-20 03:06:39.288 27184  1556 I _V_Updater/CommonUtils: vivo_daemon version:3.1.0
+02-20 03:06:39.332  1558  1558 W ls      : type=1400 audit(0.0:52527): avc: denied { getattr } for path="/cache/backup" dev="sda19" ino=14 scontext=u:r:vivo_daemon:s0 tcontext=u:object_r:cache_private_backup_file:s0 tclass=dir permissive=0
+02-20 03:06:39.332  1558  1558 W ls      : type=1400 audit(0.0:52528): avc: denied { dac_read_search } for capability=2 scontext=u:r:vivo_daemon:s0 tcontext=u:r:vivo_daemon:s0 tclass=capability permissive=0
+02-20 03:06:39.332  1558  1558 W ls      : type=1400 audit(0.0:52529): avc: denied { dac_override } for capability=1 scontext=u:r:vivo_daemon:s0 tcontext=u:r:vivo_daemon:s0 tclass=capability permissive=0
+02-20 03:06:39.339  7429  7518 D _V_ThirdAppCheckHelper: usage not reach bar or do not support this app!
+02-20 03:06:39.340  7429  7518 I chatty  : uid=10104(com.iqoo.secure) DataUsageServic identical 28 lines
+02-20 03:06:39.340  7429  7518 D _V_ThirdAppCheckHelper: usage not reach bar or do not support this app!
+02-20 03:06:39.340  7429  7518 D _V_SystemServiceCheckHelper: this machine do not support this function
+02-20 03:06:39.358  1079 16155 D _V_vivo_daemon:VvDmSrv: [10145:27184] apply, return 256, v3.1.0
+02-20 03:06:39.358  1079 16155 D _V_vivo_daemon:VvDmSrv: normal termination, exit status = 1
+02-20 03:06:39.390 27184  1548 W RecoverySystem: !!! REBOOTING TO INSTALL /data/vivo-updater/com.bbk.updater/OTAPackage/fbe8f1fcbdc9af9b8feda00dc10911ad.zip !!!
+02-20 03:06:39.422  1568  1568 W uncrypt : type=1400 audit(0.0:52530): avc: denied { search } for name="/" dev="dm-4" ino=2 scontext=u:r:uncrypt:s0 tcontext=u:object_r:oemfs:s0 tclass=dir permissive=0
+02-20 03:06:39.422  1568  1568 W uncrypt : type=1400 audit(0.0:52531): avc: denied { search } for name="/" dev="dm-4" ino=2 scontext=u:r:uncrypt:s0 tcontext=u:object_r:oemfs:s0 tclass=dir permissive=0
+02-20 03:06:39.432  1562  1562 W logcat  : type=1400 audit(0.0:52532): avc: denied { read } for name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=22622 scontext=u:r:vivo_daemon:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+02-20 03:06:39.443  1562  1562 E libc    : Access denied finding property "ro.vendor.net.upload.benchmark.default"
+02-20 03:06:39.432   523   523 W logd.reader: type=1400 audit(0.0:52533): avc: denied { getattr } for scontext=u:r:logd:s0 tcontext=u:r:vivo_daemon:s0 tclass=process permissive=0
